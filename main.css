@@ -6,7 +6,7 @@
 .green-background{
     display: grid;
     background-color: aquamarine;
-    grid-template-rows: 10vh 30vh 30vh 10vh;
+    grid-template-rows: 10vh 40vh 35vh 5vh;
     grid-template-columns: 1fr;
     padding: 2.5em;
     border-radius: 2rem;
@@ -46,8 +46,8 @@
     font-size: 1.1rem;
 }
 
-.slider-text input{
-    
+.slider-text .text1{
+    padding: auto;
 }
 
 .slider-text .totaltext{
@@ -66,7 +66,7 @@ hr{
 .lower-card{
     grid-row:3;
     background-color: white;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 2rem;
     border-radius: 0.4rem;
 }
