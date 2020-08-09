@@ -13,7 +13,7 @@
         <p>Quick Tip</p>
         <div class="top-card">
             <div>
-            <form action="">
+            <form class="slider-text" action="">
                 <label for="bill">Bill</label>
                 <input type="text" placeholder="Enter Bill" name="bill" id="bill" value ="" required>
             </form>
@@ -23,17 +23,41 @@
                 <p>Select tip</p> 
                 <p id="rangeValue"></p>
             </div>
-            <input id="slider" class="slider" type="range" min="0" max="100" value="5" step="1" name="tiprange" >
+            <input id="slider" class="slider" type="range" min="0" max="100" value="0" step="1" name="tiprange" >
 
             <div class="slider-text">
                 <p>Tip</p> 
-                <p id="tipAmount">#</p>
+                <p id="tipAmount"></p>
+            </div>
+            <hr>
+
+            <div class="slider-text">
+                <p class="totaltext">Total</p> 
+                <p class="totaltext" id="total"></p>
             </div>
             
         </div>
 
         <div class="lower-card">
+            <div>
+                <form class="slider-text" action="">
+                    <label for="people">Split</label>
+                    <input type="number" placeholder="Enter Number of People" name="people" id="people" value ="0" min="1" max="20" required>
+                </form>
+            </div>
 
+            <input id="tipslider" class="slider" type="range" min="1" value="1" max="10" step="1" name="tipslider">
+
+            <div class="slider-text">
+                <p>Bill each</p> 
+                <p id="billEach"></p>
+            </div>
+
+            <div class="slider-text">
+                <p>Tip each</p> 
+                <p id="tipEach"></p>
+            </div>
+            
         </div>
 
     </section>
