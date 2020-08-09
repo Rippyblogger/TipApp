@@ -15,15 +15,20 @@
             <div>
             <form action="">
                 <label for="bill">Bill</label>
-                <input type="text" placeholder="Enter Bill" name="bill" id="bill" required>
+                <input type="text" placeholder="Enter Bill" name="bill" id="bill" value ="" required>
             </form>
             </div>
 
             <div class="slider-text">
                 <p>Select tip</p> 
-                <p id="rangeValue">%</p>
+                <p id="rangeValue"></p>
             </div>
             <input id="slider" class="slider" type="range" min="0" max="100" value="5" step="1" name="tiprange" >
+
+            <div class="slider-text">
+                <p>Tip</p> 
+                <p id="tipAmount">#</p>
+            </div>
             
         </div>
 
