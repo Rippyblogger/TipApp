@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7CInter:300,regular,500,600,700,900" media="all">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    
+    <title>Document</title>
+</head>
+<body class="container">
+    <section class="green-background">
+        <p>Quick Tip</p>
+        <div class="top-card">
+            <div>
+            <form action="">
+                <label for="bill">Bill</label>
+                <input type="text" placeholder="Enter Bill" name="bill" id="bill" required>
+            </form>
+            </div>
+
+            <div class="slider-text">
+                <p>Select tip</p> 
+                <p id="rangeValue">%</p>
+            </div>
+            <input id="slider" class="slider" type="range" min="0" max="100" value="5" step="1" name="tiprange" >
+            
+        </div>
+
+        <div class="lower-card">
+
+        </div>
+
+    </section>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

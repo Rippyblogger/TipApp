@@ -1,0 +1,56 @@
+.container{ 
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+} 
+
+.green-background{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+    grid-template-columns: 1fr;
+    padding: 2.5em;
+    border-radius: 0.4rem;
+    margin: auto 5rem;
+    
+}
+
+.green-background p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem ;
+}
+
+.top-card{
+    grid-row: 2;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    font-weight: 100;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.slider-text p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.slider-text{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.slider{
+    width: 100%;
+}
+
+.lower-card{
+    grid-row:3;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
