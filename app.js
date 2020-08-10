@@ -25,7 +25,6 @@ const getTip =()=>{
         document.getElementById("billEach").innerHTML = `$ ${billEach.toFixed(2)}`;
         tipEach = parseFloat(tipTotal) / parseFloat(people);
         document.getElementById("tipEach").innerHTML = `$ ${tipEach.toFixed(2)}`;
-
         
     }
 

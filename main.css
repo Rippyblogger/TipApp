@@ -1,6 +1,7 @@
 .container{ 
     background-color: black;
     font-family: 'Inter', sans-serif;
+    text-align: center;
 } 
 
 .green-background{
@@ -11,6 +12,9 @@
     padding: 2.5em;
     border-radius: 2rem;
     margin: auto 5rem;
+    justify-content: center;
+    max-width: 600px;
+    width: auto !important;
     
 }
 
@@ -69,4 +73,10 @@ hr{
     margin-top: 2rem;
     padding: 2rem;
     border-radius: 0.4rem;
+}
+
+
+@media (max-width: 600px){
+
+
 }
