@@ -1,7 +1,9 @@
 .container{ 
     background-color: black;
     font-family: 'Inter', sans-serif;
-    text-align: center;
+    /* display: grid;
+    place-items: center; */
+    margin: 0 auto;
 } 
 
 .green-background{
@@ -11,7 +13,8 @@
     grid-template-columns: 1fr;
     padding: 2.5em;
     border-radius: 2rem;
-    margin: auto 5rem;
+    /* margin: auto 5rem; */
+    margin: 0 auto;/* Helped center the div*/
     justify-content: center;
     max-width: 600px;
     width: auto !important;
@@ -78,5 +81,17 @@ hr{
 
 @media (max-width: 600px){
 
-
+    .green-background{
+        display: grid;
+        background-color: aquamarine;
+        grid-template-rows: 10vh 40vh 35vh 5vh;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        border-radius: 2rem;
+        margin: 0;
+        justify-content: center;
+        max-width: 600px;
+        
+    }
 }
+
