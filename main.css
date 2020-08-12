@@ -15,13 +15,9 @@
     border-radius: 2rem;
     /* margin: auto 5rem; */
     margin: 0 auto;/* Helped center the div*/
-    margin: auto 5rem;
     justify-content: center;
     max-width: 600px;
     width: auto !important;
-    justify-content: center;
-    /* max-width: 600px;
-    min-width: 300px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -60,7 +56,18 @@
 
 .slider-text .text1{
     padding: auto;
+    width: 40%;
+    background-color: #f9f9f9;
+    color: black;
 }
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 70%;
+  }
 
 .slider-text .totaltext{
     font-weight: 600;
