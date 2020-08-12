@@ -13,11 +13,26 @@
     grid-template-columns: 1fr;
     padding: 2.5em;
     border-radius: 2rem;
+<<<<<<< HEAD
     /* margin: auto 5rem; */
     margin: 0 auto;/* Helped center the div*/
+=======
+    margin: auto 5rem;
+<<<<<<< Updated upstream
+>>>>>>> de254798aa6568ff5ad5e017786ac4e88c7abf4e
     justify-content: center;
     max-width: 600px;
     width: auto !important;
+=======
+<<<<<<< Updated upstream
+=======
+    justify-content: center;
+    /* max-width: 600px;
+    min-width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     
 }
 
